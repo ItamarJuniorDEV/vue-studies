@@ -4,7 +4,6 @@
 let nomes = ['Alice', 'Bruna', 'Caio', 'Daniel', 'Ellen'];
 </script>
 
-
 <!-- HTML -->
 <template>
   <ul>
