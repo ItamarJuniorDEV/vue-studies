@@ -1,6 +1,8 @@
-import './assets/main.css'
+// Módulo de criação da aplicação
+import { createApp } from "vue";
 
-import { createApp } from 'vue'
-import App from './App.vue'
+// Importar arquivo App.vue
+import App from "./App.vue";
 
-createApp(App).mount('#app')
+// Renderizar a aplicação
+createApp(App).mount("#app");
