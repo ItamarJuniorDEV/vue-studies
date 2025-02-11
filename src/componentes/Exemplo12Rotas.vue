@@ -10,7 +10,7 @@ import Pagina1 from './Pagina1.vue'
 import Pagina2 from './Pagina2.vue'
 import PaginaErro from './PaginaErro.vue'
 
-// Criar uma estrutura de rotas, contendo o caminho e o camponente
+// Criar uma estrutura de rotas, contendo o caminho e o componente
 const routes = {
   '/': Pagina1,
   '/pagina2': Pagina2,
