@@ -5,7 +5,7 @@
 function validaFormulario(event) {
   alert('Formulário enviado!');
 
-// Com o preventDefault(), o redirecionamento não será validado  
+  // Com o preventDefault(), o redirecionamento não será validado  
   event.preventDefault();
 }
 
