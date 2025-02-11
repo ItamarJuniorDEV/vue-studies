@@ -2,15 +2,18 @@
 <script setup>
 
 // Função para validar o formulário
-function validaFormulario() {
+function validaFormulario(event) {
   alert('Formulário enviado!');
+
+// Com o preventDefault(), o redirecionamento não será validado  
+  event.preventDefault();
 }
 
 </script>
 
 <!-- HTML  -->
 <template>
-  <form @submit="validaFormulario">
+  <form action="http://itamarjr.com" @submit="validaFormulario">
     <input type="submit" value="Enviar formulário">
   </form>
 </template>
